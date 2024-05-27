@@ -17,5 +17,5 @@ def save_pairs_to_file(pairs, output_file):
             file.write(f"{pair}\n")
 
 # 結果をファイルに保存
-output_file = 'corpus.txt'
+output_file = 'first-two-char_corpus.txt'
 save_pairs_to_file(pairs, output_file)
